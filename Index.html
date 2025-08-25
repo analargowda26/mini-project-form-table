@@ -3,13 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini projet</title>
+    <style>
+        body{
+            font-family:arial, sans-serif;
+            background-color: #f8bbd9;
+        }
+        title{
+            font-size: x-large;
+        }
+        table{
+            width: 100%;
+            border: 2px solid black;
+        }
+        th , td{
+            padding:10px;
+            border: 1px solid black;
+        }
+        th{
+            background-color: #e91e63;
+        }
+        input{
+            padding:8px; border:1px solid #ccc;
+        }
+        button{
+            background-color: #e91e63; color:white; padding: 10px 20px; border:none; border-radius:5px;
+        }
+        form{
+            margin-bottom: 40px;
+            background-color: white;
+        }
+        table{
+            margin-bottom: 30px;
+            background-color: white;
+        }
+        section{
+            margin-bottom:30px;
+            background-color: white;
+            padding:20px;
+            float:left;
+            width:35%;
+            margin-right: 5%;
+        }
+        
+    </style>
+    <title style="font-size: large;">Mini projet</title>
 </head>
 <body>
     <h1>Student Management system</h1>
     <br>
     <a href="https://scooplabs.in">Click to open Scoop Labs</a>
-    <div class="Form">
+    <section class="form">
             <form>
                 <label>Student Name</label>
                 <input type="text" placeholder="Anala R Gowda">
@@ -34,15 +77,15 @@
               <br>
               <button>Submit</button>
             </form>
-            </div>
+        </section>
             <br>
-            <div>
+            <section class="table">
                 <table>
                     <label>Student table</label>
                     <tr>
-                        <thead>Student ID</thead>
-                        <thead>Student Name</thead>
-                        <thead>ROLL Number</thead>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>ROLL Number</th>
                     </tr>
                     <tr>
                         <td>456</td>
@@ -50,7 +93,7 @@
                         <td>1VE20EC006</td>
                     </tr>
                 </table>
-            </div>
+            </section>
 
 </body>
 </html>
